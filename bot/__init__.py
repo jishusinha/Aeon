@@ -159,7 +159,7 @@ if len(USER_SESSION_STRING) != 0:
         log_error(f"Failed making client from USER_SESSION_STRING : {e}")
         user = ''
 
-MAX_SPLIT_SIZE = 4194304000 if IS_PREMIUM_USER else 2097152000
+MAX_SPLIT_SIZE = 4294967300 if IS_PREMIUM_USER else 2147483648
 
 MEGA_EMAIL = environ.get('MEGA_EMAIL', '')
 MEGA_PASSWORD = environ.get('MEGA_PASSWORD', '')
