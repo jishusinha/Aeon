@@ -113,6 +113,8 @@ async def start(client, message):
         start_string = f'I am URL Uploader bot. Just send me any Direct download link or Torrents and I will upload file remotely to Telegram.\n\n<b>Type {help_command} to get a list of available commands</b>'
         await sendMessage(message, start_string, photo='IMAGES')
     else:
+        help_command = f"/{BotCommands.HelpCommand}"
+        start_string = f'I am URL Uploader bot. Just send me any Direct download link or Torrents and I will upload file remotely to Telegram.\n\n<b>Type {help_command} to get a list of available commands</b>'        
         await sendMessage(message, start_string, photo='IMAGES')
     await DbManager().update_pm_users(message.from_user.id)
 
