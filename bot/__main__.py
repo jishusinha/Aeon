@@ -206,17 +206,15 @@ async def log(_, message):
 
 help_string = f'''<b>NOTE: Try each command without any arguments to see more details.</b>
 
-/{BotCommands.MirrorCommand[0]} - Start mirroring to Google Drive.
-/{BotCommands.LeechCommand[0]} - Start leeching to Telegram.
-/{BotCommands.YtdlCommand[0]} - Mirror links supported by yt-dlp.
-/{BotCommands.YtdlLeechCommand[0]} - Leech links supported by yt-dlp.
-/{BotCommands.CloneCommand[0]} - Copy files/folders to Google Drive.
+/{BotCommands.LeechCommand[0]} - Start uploading to Telegram.
+/{BotCommands.YtdlLeechCommand[0]} - Upload links supported by yt-dlp.
 /{BotCommands.CountCommand} - Count files/folders in Google Drive.
 /{BotCommands.UserSetCommand[0]} - User settings.
 /{BotCommands.BtSelectCommand} - Select files from torrents by gid or reply.
 /{BotCommands.StopAllCommand[0]} - Cancel all [status] tasks.
-/{BotCommands.ListCommand} - Search in Google Drive(s).
-/{BotCommands.SearchCommand} - Search for torrents with API or plugins.
+/{BotCommands.SpeedCommand[0]} - Check speed of bot.
+/{BotCommands.MediaInfoCommand[0]} - Check media information.
+/{BotCommands.PingCommand[0]} - Check bot latency.
 /{BotCommands.StatusCommand[0]} - Show status of all downloads.
 /{BotCommands.StatsCommand[0]} - Show stats of the machine hosting the bot.
 '''
