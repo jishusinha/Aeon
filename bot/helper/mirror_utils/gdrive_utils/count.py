@@ -44,4 +44,4 @@ async def countNode(_, message):
     await sendMessage(message, msg)
     await delete_links(message)
 
-bot.add_handler(MessageHandler(countNode, filters=command(BotCommands.CountCommand) ))
+bot.add_handler(MessageHandler(countNode, filters=command(BotCommands.CountCommand)))
