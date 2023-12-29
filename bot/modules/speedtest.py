@@ -38,4 +38,4 @@ async def speedtest(_, message):
         LOGGER.error(str(e))
         await editMessage(speed, string_speed)
 
-bot.add_handler(MessageHandler(speedtest, filters=command(BotCommands.SpeedCommand) & CustomFilters.authorized))
+bot.add_handler(MessageHandler(speedtest, filters=command(BotCommands.SpeedCommand)))
