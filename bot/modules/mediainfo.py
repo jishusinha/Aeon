@@ -97,4 +97,4 @@ async def mediainfo(_, message):
     else:
         return await sendMessage(message, help_msg)
 
-bot.add_handler(MessageHandler(mediainfo, filters=command(BotCommands.MediaInfoCommand) & CustomFilters.authorized))
+bot.add_handler(MessageHandler(mediainfo, filters=command(BotCommands.MediaInfoCommand)))
