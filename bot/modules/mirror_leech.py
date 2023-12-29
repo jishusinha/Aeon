@@ -328,13 +328,13 @@ async def _mirror_leech(client, message, isQbit=False, isLeech=False, sameDir=No
     await delete_links(message)
 
 
-async def esshu(client, message):
+async def mirror(client, message):
     _mirror_leech(client, message)
 
 
-async def upload(client, message):
+async def leech(client, message):
     _mirror_leech(client, message, isLeech=True)
 
 
-bot.add_handler(MessageHandler(esshu, filters=command(BotCommands.MirrorCommand) & CustomFilters.authorized))
-bot.add_handler(MessageHandler(upload, filters=command(BotCommands.LeechCommand) & CustomFilters.authorized))
+bot.add_handler(MessageHandler(mirror, filters=command(BotCommands.MirrorCommand) & CustomFilters.authorized))
+bot.add_handler(MessageHandler(leech, filters=command(BotCommands.LeechCommand) & CustomFilters.authorized))
