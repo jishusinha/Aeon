@@ -10,20 +10,12 @@ YT_HELP_MESSAGE = """
 
 <b>-n new_name:</b> Rename the file.
 
-<b>-t thumbnail url:</b> Custom thumbnail for each leexh.(raw or tg image url)
+<b>-t thumbnail url:</b> Custom thumbnail for each upload.(raw or tg image url)
 
-<b>-ss value:</b> Generate ss for leech video, max 10 for each leach.
+<b>-ss value:</b> Generate ss for upload video, max 10 for each upload.
 
 <b>-id drive_folder_link or drive_id -index https://anything.in/0:</b> Upload to a custom drive.
 
-<b>-opt playliststart:^10|fragment_retries:^inf|matchtitle:S13|writesubtitles:true|live_from_start:true|postprocessor_args:{{"ffmpeg": ["-threads", "4"]}}|wait_for_video:(5, 100):</b> Set additional options.
-
-<b>-i 10:</b> Process multiple links.
-
-<b>-b:</b> Perform bulk download by replying to a text message or file with links separated with new line.
-
-
-<b>Check all yt-dlp api options from this <a href='https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/YoutubeDL.py#L184'>FILE</a> or use this <a href='https://t.me/mltb_official_channel/177'>script</a> to convert cli arguments to api options.</b>
 """
 
 MIRROR_HELP_MESSAGE = """
@@ -34,7 +26,7 @@ MIRROR_HELP_MESSAGE = """
 <b>OPTIONS:</b>
 <b>-n new name:</b> Rename the file or folder.
 
-<b>-t thumbnail url:</b> Custom thumbnail for each leexh.(raw or tg image url)
+<b>-t thumbnail url:</b> Custom thumbnail for each upload.(raw or tg image url)
 
 <b>-ss value:</b> Generate ss for leech video, max 10 for each leach.
 
