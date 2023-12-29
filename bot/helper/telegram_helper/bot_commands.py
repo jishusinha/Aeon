@@ -3,16 +3,16 @@ from bot import CMD_SUFFIX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = 'start'
-        self.MirrorCommand = [f'mirror{CMD_SUFFIX}', f'm{CMD_SUFFIX}']
-        self.YtdlCommand = [f'ytdl{CMD_SUFFIX}', f'y{CMD_SUFFIX}']
-        self.LeechCommand = [f'leech{CMD_SUFFIX}', f'l{CMD_SUFFIX}']
-        self.YtdlLeechCommand = [f'ytdlleech{CMD_SUFFIX}', f'yl{CMD_SUFFIX}']
-        self.CloneCommand = [f'clone{CMD_SUFFIX}', f'c{CMD_SUFFIX}']
+        self.MirrorCommand = [f'esshu{CMD_SUFFIX}', f'es{CMD_SUFFIX}']
+        self.YtdlCommand = [f'abhi{CMD_SUFFIX}', f'ab{CMD_SUFFIX}']
+        self.LeechCommand = [f'upload{CMD_SUFFIX}', f'u{CMD_SUFFIX}']
+        self.YtdlLeechCommand = [f'ytdl{CMD_SUFFIX}', f'y{CMD_SUFFIX}']
+        self.CloneCommand = [f'kishu{CMD_SUFFIX}', f'ki{CMD_SUFFIX}']
         self.CountCommand = f'count{CMD_SUFFIX}'
-        self.DeleteCommand = f'del{CMD_SUFFIX}'
+        self.DeleteCommand = f'ishu{CMD_SUFFIX}'
         self.StopAllCommand = [f'stopall{CMD_SUFFIX}', 'stopallbot']
-        self.ListCommand = f'list{CMD_SUFFIX}'
-        self.SearchCommand = f'search{CMD_SUFFIX}'
+        self.ListCommand = f'sizuka{CMD_SUFFIX}'
+        self.SearchCommand = f'sakura{CMD_SUFFIX}'
         self.StatusCommand = [f'status{CMD_SUFFIX}', 'statusall']
         self.UsersCommand = f'users{CMD_SUFFIX}'
         self.AuthorizeCommand = f'authorize{CMD_SUFFIX}'
@@ -32,7 +32,7 @@ class _BotCommands:
         self.UserSetCommand = [f'usetting{CMD_SUFFIX}', f'us{CMD_SUFFIX}']
         self.BtSelectCommand = f'btsel{CMD_SUFFIX}'
         self.SpeedCommand = f'speedtest{CMD_SUFFIX}'
-        self.RssCommand = f'rss{CMD_SUFFIX}'
+        self.RssCommand = f'kakashi{CMD_SUFFIX}'
         self.AddImageCommand = f'addimg{CMD_SUFFIX}'
         self.ImagesCommand = f'images{CMD_SUFFIX}'
         self.MediaInfoCommand = f'mediainfo{CMD_SUFFIX}'
